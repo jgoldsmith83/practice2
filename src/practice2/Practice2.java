@@ -1,10 +1,16 @@
 package practice2;
 import java.util.Scanner;
 
-/**
+/*
  *
- * @author JGoldsmith
+ * Justin Goldsmith
+ * July 5, 2015
+ * CPT167 Vaseashta
+ * Practice 2 - Source Code
+ * 
  */
+ 
+ 
 public class Practice2 {
 
     public static void main(String[] args) {
@@ -25,18 +31,9 @@ public class Practice2 {
          int COLS = 2;
          int row = 0;
          
-         getNewGrades(name, grade, addNew, input);
+        getNewGrades(name, grade, addNew, input);
          
-         
-        
         System.out.printf("%-12s %-12s %8s\n", "First", "Last", "Grade");
-        
-        /* 
-        System.out.printf("%-12s %-12s %8s\n", name[0][0], name[1][0], grades[0]);
-        System.out.printf("%-12s %-12s %8s\n", name[0][1], name[1][1], grades[1]);
-        System.out.printf("%-12s %-12s %8s\n", name[0][2], name[1][2], grades[2]);
-        */
-        
         
         for (int newLine = 0; newLine < 2; newLine++){
             System.out.println();
